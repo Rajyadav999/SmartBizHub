@@ -1,16 +1,112 @@
-# React + Vite
+# Modern Business Website — React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fully responsive, accessible, and high-performance business website built using React, Vite, modern JavaScript (ES6+), and scalable CSS architecture.  
+This project demonstrates clean component-based design, accessibility (WCAG 2.1 AA), and optimized frontend performance.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Live Demo
+(Add your deployed site link here, e.g., https://your-site.vercel.app)
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Overview
+This project is a multi-page business website designed using modern frontend practices:
+- Responsive design for all screen sizes  
+- React component architecture  
+- State management using hooks  
+- Accessibility-focused development  
+- Performance optimization and lazy loading  
+- Modular and scalable folder structure  
 
-## Expanding the ESLint configuration
+This project is ideal for portfolios, internships, and real-world business websites.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Features
+### UI & Responsive Design
+- Fully responsive layout (mobile, tablet, desktop)
+- Modern layout using CSS Grid & Flexbox
+- Light/Dark theme toggle (saved in local storage)
+- Smooth animations & transitions
+- Reusable and scalable components
+
+### Functionality
+- Filterable portfolio section
+- Contact form with validation
+- Mobile navigation menu
+- Lazy-loaded images
+- Optimized bundle size with Vite
+
+### Developer Experience
+- Fast HMR using Vite
+- ESLint + Prettier for consistent code style
+- Clean, modular codebase
+
+---
+
+## Tech Stack
+
+### Frontend
+- React 18
+- JavaScript (ES6+)
+- Vite (development server + bundler)
+- React Router DOM
+- Modern CSS (CSS Variables, Flexbox, Grid)
+
+### Tools & Libraries
+- Axios (API calls)
+- clsx (conditional className helper)
+- ESLint & Prettier
+- Git and GitHub for version control
+
+---
+
+## Programming Languages Used
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+- JSX
+
+---
+
+## Dependencies
+
+### Core Dependencies
+| Package          | Purpose                |
+|------------------|------------------------|
+| react            | Core UI library        |
+| react-dom        | DOM renderer for React |
+| react-router-dom | Routing between pages  |
+| axios            | API requests (if used) |
+| clsx             | Conditional CSS classes|
+
+### Development Dependencies
+| Package                | Purpose                           |
+|------------------------|-----------------------------------|
+| vite                   | Development server & bundler      |
+| @vitejs/plugin-react   | React support for Vite            |
+| eslint                 | Linting                           |
+| eslint-plugin-react    | React linting rules               |
+| eslint-config-prettier | Avoid ESLint + Prettier conflicts |
+| prettier | Code formatting |
+
+### package.json Snapshot
+```json
+{
+  "dependencies": {
+    "axios": "^1.6.7",
+    "clsx": "^2.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.22.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.0",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-react": "^7.33.2",
+    "prettier": "^3.2.4",
+    "vite": "^5.1.0"
+  }
+}
