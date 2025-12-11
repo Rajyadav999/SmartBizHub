@@ -1,47 +1,52 @@
-# Modern Business Website — React + Vite
 
-A fully responsive, accessible, and high-performance business website built using React, Vite, modern JavaScript (ES6+), and scalable CSS architecture.  
-This project demonstrates clean component-based design, accessibility (WCAG 2.1 AA), and optimized frontend performance.
+SmartBizHub is a fully responsive, accessible, and high-performance business website built using React, Vite, modern JavaScript (ES6+), and modular CSS.  
+The project demonstrates clean frontend architecture, reusable components, accessibility (WCAG 2.1 AA), SEO readiness, and performance-focused engineering.
 
 ---
 
 ## Live Demo
-(Add your deployed site link here, e.g., https://your-site.vercel.app)
+https://github.com/Rajyadav999/SmartBizHub.git
 
 ---
 
 ## Overview
-This project is a multi-page business website designed using modern frontend practices:
-- Responsive design for all screen sizes  
-- React component architecture  
-- State management using hooks  
-- Accessibility-focused development  
-- Performance optimization and lazy loading  
-- Modular and scalable folder structure  
+SmartBizHub is a multi-page business website designed with modern UI/UX principles, scalable folder structure, and optimized React development practices.
 
-This project is ideal for portfolios, internships, and real-world business websites.
+This project showcases:
+- Responsive design  
+- React component architecture  
+- Light/Dark theme toggle  
+- Interactive UI elements  
+- Accessibility compliance  
+- Optimized performance and SEO  
+- Clean code with linting and formatting tools  
+
+Perfect for frontend developer portfolios, internships, and real-world client use.
 
 ---
 
 ## Features
-### UI & Responsive Design
-- Fully responsive layout (mobile, tablet, desktop)
-- Modern layout using CSS Grid & Flexbox
-- Light/Dark theme toggle (saved in local storage)
-- Smooth animations & transitions
-- Reusable and scalable components
 
-### Functionality
-- Filterable portfolio section
-- Contact form with validation
-- Mobile navigation menu
-- Lazy-loaded images
-- Optimized bundle size with Vite
+### UI & Experience
+- Fully responsive for mobile, tablet, and desktop
+- Modern CSS layout using Grid & Flexbox
+- Smooth animations and transitions
+- Reusable component-driven architecture
+- Persistent Light/Dark theme toggle
+- Optimized image loading
+
+### Functional Features
+- Filterable Portfolio section  
+- Contact form with validation  
+- Mobile-friendly navigation drawer  
+- Lazy loading for images  
+- Route-based navigation with React Router  
 
 ### Developer Experience
-- Fast HMR using Vite
-- ESLint + Prettier for consistent code style
-- Clean, modular codebase
+- Lightning-fast development with Vite  
+- ESLint + Prettier for code consistency  
+- Modular folder structure  
+- Clean, scalable React components  
 
 ---
 
@@ -49,16 +54,17 @@ This project is ideal for portfolios, internships, and real-world business websi
 
 ### Frontend
 - React 18
-- JavaScript (ES6+)
-- Vite (development server + bundler)
+- JavaScript ES6+
+- Vite
 - React Router DOM
-- Modern CSS (CSS Variables, Flexbox, Grid)
+- CSS3 (Variables, Grid, Flexbox)
 
-### Tools & Libraries
+### Tools
 - Axios (API calls)
-- clsx (conditional className helper)
-- ESLint & Prettier
-- Git and GitHub for version control
+- clsx (Conditional class names)
+- ESLint
+- Prettier
+- Git & GitHub
 
 ---
 
@@ -73,23 +79,23 @@ This project is ideal for portfolios, internships, and real-world business websi
 ## Dependencies
 
 ### Core Dependencies
-| Package          | Purpose                |
-|------------------|------------------------|
-| react            | Core UI library        |
-| react-dom        | DOM renderer for React |
-| react-router-dom | Routing between pages  |
-| axios            | API requests (if used) |
-| clsx             | Conditional CSS classes|
+| Package          | Purpose                                |
+|------------------|----------------------------------------|
+| react            | Core UI library                        |
+| react-dom        | Rendering React components into DOM    |
+| react-router-dom | Routing (navigation between pages)     |
+| axios            | HTTP requests & API integration        |
+| clsx             | Utility for conditional CSS classNames |
 
 ### Development Dependencies
-| Package                | Purpose                           |
-|------------------------|-----------------------------------|
-| vite                   | Development server & bundler      |
-| @vitejs/plugin-react   | React support for Vite            |
-| eslint                 | Linting                           |
-| eslint-plugin-react    | React linting rules               |
-| eslint-config-prettier | Avoid ESLint + Prettier conflicts |
-| prettier | Code formatting |
+| Package                | Purpose                             |
+|------------------------|-------------------------------------|
+| vite                   | Development server + bundler        |
+| @vitejs/plugin-react   | React support for Vite              |
+| eslint                 | Code quality & linting              |
+| eslint-plugin-react    | React-specific linting rules        | 
+| eslint-config-prettier | Prevent ESLint & Prettier conflicts |
+| prettier               | Code formatting                     |
 
 ### package.json Snapshot
 ```json
@@ -110,3 +116,21 @@ This project is ideal for portfolios, internships, and real-world business websi
     "vite": "^5.1.0"
   }
 }
+
+System Requirements
+1.Node.js v18 or higher
+2.npm v9+ or yarn
+3.Git
+4.Modern browser (Chrome, Edge, Firefox, Safari)
+
+Installation
+
+Clone the repository:
+git clone https:https://github.com/Rajyadav999/SmartBizHub.git
+cd SmartBizHub
+
+Install dependencies:
+npm install
+
+Start development server:
+npm run dev
