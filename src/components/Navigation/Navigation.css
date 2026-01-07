@@ -1,0 +1,92 @@
+.navigation {
+  width: 100%;
+}
+
+.nav-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.navigation.desktop .nav-list {
+  gap: 2rem;
+  align-items: center;
+}
+
+.navigation.mobile .nav-list {
+  flex-direction: column;
+  gap: 0;
+}
+
+.nav-item {
+  width: 100%;
+}
+
+.nav-button {
+  background: none;
+  border: none;
+  color: var(--text-primary);
+  font-size: var(--text-base);
+  font-weight: 500;
+  cursor: pointer;
+  padding: 0.5rem 0;
+  position: relative;
+  transition: color var(--transition-fast);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: inherit;
+}
+
+.navigation.mobile .nav-button {
+  width: 100%;
+  padding: 1rem;
+  justify-content: flex-start;
+  border-bottom: 1px solid var(--border-light);
+}
+
+.nav-button::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: var(--primary);
+  transition: width var(--transition-base);
+}
+
+.navigation.desktop .nav-button:hover,
+.navigation.desktop .nav-button.active {
+  color: var(--primary);
+}
+
+.navigation.desktop .nav-button:hover::after,
+.navigation.desktop .nav-button.active::after {
+  width: 100%;
+}
+
+.navigation.mobile .nav-button:hover,
+.navigation.mobile .nav-button.active {
+  background: var(--bg-secondary);
+  color: var(--primary);
+}
+
+.navigation.mobile .nav-button::after {
+  display: none;
+}
+
+.nav-icon {
+  font-size: 1.25rem;
+}
+
+.nav-label {
+  flex: 1;
+  text-align: left;
+}
+
+.nav-button:focus {
+  outline: 2px solid var(--primary);
+  outline-offset: 2px;
+}
